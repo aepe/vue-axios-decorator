@@ -1,0 +1,18 @@
+{
+  "files": ["src/main.ts", "index.ts"],
+  "compilerOptions": {
+    "outDir": "./lib/",
+    "sourceMap": true,
+    "strict": true,
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "target": "ES2015",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "rootDir": "."
+  },
+  "include": ["./src/**/*"]
+}
